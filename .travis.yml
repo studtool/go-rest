@@ -11,9 +11,7 @@ jobs:
   include:
     - stage: lint
       script:
-        - echo "lint"
-        #- make lint
+        - make lint
     - stage: run tests
       script:
-        - echo "test"
-        #- IS_CI=true make test
+        - IS_CI=true make test
