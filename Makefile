@@ -8,8 +8,6 @@ ORIGIN := github.com
 APP_NAME := studtool
 
 LIB_NAME := go-rest
-LIB_VERSION := v0.0.1
-
 LIB_PACKAGE := $(ORIGIN)/$(APP_NAME)/$(LIB_NAME)
 
 TEST_SERVER_ADDRESS ?= 127.0.0.1:80
